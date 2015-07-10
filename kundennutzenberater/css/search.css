@@ -1,0 +1,117 @@
+.search_title .search_link {
+  color: #000 !important;
+}
+#search {
+  margin-top: 2px;
+  margin-bottom: 0;
+  margin-right: 1px;
+  position: relative;
+  border-radius: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  border: none;
+  box-shadow: none;
+  outline: none;
+  height: 44px;
+  width: 235px;
+  background: #4db748;
+  /*  @media (max-width: 1199px) {
+    width: 940px;
+    input {
+      width: 890px;
+    }
+  }
+  @media (max-width: 979px) {
+    width: 748px;
+    input {
+      width: 698px;
+    }
+  }
+  @media (max-width: 767px) {
+    width: 420px;
+    margin-top: 20px;
+    height: 34px;
+    input {
+      height: 34px;
+      width: 370px;
+    }
+  }
+  @media (max-width: 479px) {
+    width: 270px;
+    input {
+      width: 220px;
+    }
+  }*/
+}
+#search::-ms-clear {
+  display: none;
+}
+#search input {
+  border-radius: 0;
+  font: 400 16px/24px 'Open Sans', sans-serif;
+  color: #ffffff;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  border: none;
+  box-shadow: none;
+  outline: none;
+  height: 44px;
+  width: 180px;
+  background: #4db748;
+  padding: 5px 0 5px 13px;
+  display: block;
+}
+#search input::-ms-clear {
+  display: none;
+}
+#search input::-webkit-input-placeholder {
+  color: #ffffff;
+}
+#search input:-moz-placeholder {
+  /* Firefox 18- */
+  color: #ffffff;
+}
+#search input::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #ffffff;
+}
+#search input:-ms-input-placeholder {
+  color: #ffffff;
+}
+#search a {
+  position: absolute;
+  font-size: 25px;
+  cursor: pointer;
+  color: #ffffff;
+  top: 50%;
+  margin-top: -12px;
+  right: 38px;
+}
+#search a > .search_icon {
+  display: block;
+}
+#search a > .search_icon:hover:before {
+  color: #ffffff;
+}
+#search a > .search_icon:before {
+  font-family: FontAwesome;
+  font-size: 23px;
+  position: absolute;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: none;
+  cursor: default;
+  content: '\f002';
+  color: #f47032;
+  cursor: pointer;
+  -webkit-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+}
+#search a > .search_icon:hover {
+  background-position: center -17px;
+}

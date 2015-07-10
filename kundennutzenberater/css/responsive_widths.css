@@ -1,0 +1,732 @@
+.pGarantieSirina h4 {
+  font: 400 43px/43px 'Roboto', sans-serif;
+  color: #FFFFFF;	
+}
+
+#logo-1 { display: block;}
+#logo-2 { display: none;}
+
+
+.banerska_pozadina {
+	  background-image: url('../images/p1_bg3.jpg');
+}
+
+/**
+ * Ekrani od 320 do 479 Å¡irine u pikselima
+ * @param  {[type]} min-width: 320px)        and (max-width: 479px [description]
+ * @return {[type]}            [description]
+ */
+@media (min-width: 320px) and (max-width: 479px) {
+.navbar-toggle {
+  margin-top: 23px;
+}
+.navbar {
+	height: 90px;
+	/*background-color: red;*/
+}
+
+#logo-1 { display: none;}
+#logo-2 { display: block; padding-left: 10px; padding-top: 6px; padding-bottom: 3px;}
+
+.banner1:first-child {
+   margin-top: 80px; 
+  padding-bottom: 19px;
+}
+
+.navbar-nav {
+  margin: 0.0px -15px;
+}
+/*RAZNO*/
+
+  .pGarantie h4{
+
+  }
+  .p3 {
+    font: 300 20px/34px 'Roboto', sans-serif !important;
+  	padding: 8px 0 8px 5px;
+  }
+
+  .p3:first-child {
+      margin-top:15px !important;
+      padding-left: 20px !important;
+  }
+
+  .w1 {
+  	width: 100%;
+  }
+
+  .w2 {
+  	width: 100%;
+  }
+
+  .w3 {
+  	width: 100%;
+  }
+  
+  .w4 {
+  	width: 100%;
+  }
+
+  .pat:nth-of-type(1) {
+  	padding-top: 20px;
+  }
+
+  .mat {
+  	margin-top: 40px;
+  }
+
+  .pulse {
+	  -webkit-animation-name: '';
+	  -webkit-animation-duration: 0;
+	  -webkit-transform-origin: 0;
+	  -moz-animation-name: '';
+	  -moz-animation-duration: 0;
+	  -moz-transform-origin: 0;
+	}
+
+	.banerska_pozadina {
+	  background-image: url('../images/p1_bg2.jpg') !important;
+	}
+
+	.margina_vrh_10 {
+	    margin-top:120px;
+	  }
+/*RAZNO -- KRAJ*/
+
+/*PADDING*/
+	.mobile_button_padding_20 {
+		padding-left: 20px !important;
+	}
+
+	.mobile_tekst_padding_20 {
+		padding-left: 20px !important;
+	}
+
+	.padding_gore_40 {
+	  padding-top: 25px;
+	}
+
+	.padding_lijevo_20 {
+	    padding:0px;
+	}
+
+	.padding_lijevo_40 {
+	    padding:0px;
+	}
+
+	.padding_gore_80 {
+	  padding-top: 130px;
+	}
+/*PADDING -- KRAJ*/
+
+
+
+/*RESPONZIVNE VISINE*/
+  .visina_550 {
+    height: auto !important;
+  }
+
+  .visina_650 {
+    height: auto !important;
+  }
+/*RESPONZIVNE VISINE -- KRAJ*/
+
+
+/*RESPONZIVNI BUTTONI*/
+	.btn-default.orange {
+	    display: inline-block;
+	    font: 300 20px/20px 'Roboto', sans-serif;
+	    color: orange;
+	    border: solid 1px orange;
+	    position: relative;
+	    padding: 8px;
+	    text-align: center;
+	    letter-spacing: -0.025em;
+	    z-index: 5;
+	}
+
+	.btn-default.black {
+	    display: inline-block;
+	    font: 300 20px/20px 'Roboto', sans-serif;
+	    color: #FFFFFF;
+	    border: solid 1px #4c4c4c;
+	    position: relative;
+	    padding: 8px;
+	    letter-spacing: -0.025em;
+	    z-index: 5;
+	}
+
+	.btn-default.black_inline {
+	    font: 300 20px/20px 'Roboto', sans-serif;
+		position: relative !important;
+		top: auto !important;
+		left: auto !important;
+	    padding: 8px;
+
+	}
+  	.btn-default.orange_inline {
+	    font: 300 20px/20px 'Roboto', sans-serif;
+	    position: relative !important;
+	    padding: 8px;
+	    top: auto !important;
+	    left: auto !important;
+  	}
+
+/*RESPONZIVNI BUTTONI -- KRAJ*/
+
+
+/*RESPONZIVNI FONTOVI*/
+  	.tekst_prva_razina {
+	    font: 300 23px/20px 'Roboto',sans-serif !important;
+	}
+
+  	.tekst_dva_i_pol {
+    	padding-left: 17px;
+  	}
+
+  	.tekst_dva_i_pol h2 {
+    	font: 300 20px/34px 'Roboto', sans-serif !important;
+  	}
+
+
+  	.tekst_druga_razina {
+    	font: 300 20px/34px 'Roboto', sans-serif !important;
+  	}
+/*RESPONZIVNI FONTOVI -- KRAJ*/
+
+}
+
+/**
+ * Ekrani od 480 do 602 Å¡irine u pixelima
+ * @param  {[type]} min-width: 480px)        and (max-width: 602px [description]
+ * @return {[type]}            [description]
+ */
+@media (min-width: 480px) and (max-width: 767px) {
+.navbar-toggle {
+  margin-top: 23px;
+}
+.navbar {
+	height: 90px;
+}
+
+#logo-1 { display: none;}
+#logo-2 { display: block; padding-left: 10px; padding-top: 6px;padding-bottom: 3px;}
+
+.banner1:first-child {
+   margin-top: 80px; 
+  padding-bottom: 19px;
+}
+
+.navbar-nav {
+  margin: 0.0px -15px;
+}
+/*RAZNO*/
+  .p3 {
+    font: 300 25px/34px 'Roboto', sans-serif !important;
+  }
+
+  .p3:first-child {
+      margin-top:25px !important;
+  }
+
+  .w1 {
+  	width: 100%;
+  }
+
+  .w2 {
+  	width: 100%;
+  }
+
+  .w3 {
+  	width: 100%;
+  }
+  
+  .w4 {
+  	width: 100%;
+  }
+
+  .pulse {
+	  -webkit-animation-name: '';
+	  -webkit-animation-duration: 0;
+	  -webkit-transform-origin: 0;
+	  -moz-animation-name: '';
+	  -moz-animation-duration: 0;
+	  -moz-transform-origin: 0;
+	}
+
+  .margina_gore_20 {
+    margin-top: 85px;
+  }
+
+
+	.margina_vrh_10 {
+    margin-top:120px;
+  }
+/*RAZNO -- KRAJ*/
+
+/*PADDING*/
+	.padding_gore_40 {
+		padding-top: 0px;
+	}
+
+	.padding_lijevo_20 {
+	    padding:0 !important;
+	}
+
+	.padding_lijevo_40 {
+	    padding:0 !important;
+	}
+
+	.padding_gore_80 {
+	  padding-top: 125px;
+	}
+	
+
+	.mobile_button_padding_20 {
+		padding-left: 20px !important;
+	}
+
+	.mobile_tekst_padding_20 {
+		padding-left: 20px !important;
+	}
+/*PADDING -- KRAJ*/
+
+
+
+/*RESPONZIVNE VISINE*/
+  .visina_550 {
+    height: auto !important;
+  }
+
+  .visina_650 {
+    height: auto !important;
+  }
+/*RESPONZIVNE VISINE -- KRAJ*/
+
+
+/*RESPONZIVNI BUTTONI*/
+	.btn-default.orange {
+	    display: inline-block;
+	    font: 300 24px/24px 'Roboto', sans-serif;
+	    color: orange;
+	    border: solid 1px orange;
+	    position: relative;
+	    padding: 8px;
+	    text-align: center;
+	    letter-spacing: -0.025em;
+	    z-index: 5;
+	}
+
+	.btn-default.black {
+	    display: inline-block;
+	    font: 300 24px/24px 'Roboto', sans-serif;
+	    color: #FFFFFF;
+	    border: solid 1px #4c4c4c;
+	    position: relative;
+	    padding: 8px;
+	    letter-spacing: -0.025em;
+	    z-index: 5;
+	}
+
+	.btn-default.black_inline {
+	    font: 300 24px/24px 'Roboto', sans-serif;
+		position: relative !important;
+		top: auto !important;
+		left: auto !important;
+	    padding: 8px;
+
+	}
+  	.btn-default.orange_inline {
+	    font: 300 24px/24px 'Roboto', sans-serif;
+	    position: relative !important;
+	    padding: 8px;
+	    top: auto !important;
+	    left: auto !important;
+  	}
+
+/*RESPONZIVNI BUTTONI -- KRAJ*/
+
+
+/*RESPONZIVNI FONTOVI*/
+  	.tekst_prva_razina {
+	    font: 300 33px/34px 'Roboto',sans-serif !important;
+	}
+
+  	.tekst_dva_i_pol {
+    	padding-left: 17px;
+  	}
+
+  	.tekst_dva_i_pol h2 {
+    	font: 300 25px/34px 'Roboto', sans-serif !important;
+  	}
+
+
+  	.tekst_druga_razina {
+    	font: 300 25px/34px 'Roboto', sans-serif !important;
+  	}
+/*RESPONZIVNI FONTOVI -- KRAJ*/
+
+}
+@media (min-width: 768px) and (max-width: 965px) {
+.navbar {
+	height: 118px;
+}
+.btn-group-vertical>.btn-group:after, .btn-group-vertical>.btn-group:before, .btn-toolbar:after, .btn-toolbar:before, .clearfix:after, .clearfix:before, .container-fluid:after, .container-fluid:before, .container:after, .container:before, .dl-horizontal dd:after, .dl-horizontal dd:before, .form-horizontal .form-group:after, .form-horizontal .form-group:before, .modal-footer:after, .modal-footer:before, .nav:after, .nav:before, .navbar-collapse:after, .navbar-collapse:before, .navbar-header:after, .navbar-header:before, .navbar:after, .navbar:before, .pager:after, .pager:before, .panel-body:after, .panel-body:before {
+  display: table;
+  content: " ";
+  margin-top: -5px;
+}
+.navbar-nav {
+        padding-right: 0;
+        margin:0px -15px 0px -15px;
+}
+
+.navbar-toggle {
+  position: relative;
+  float: right;
+  padding: 9px 10px;
+  margin-top: -78px;
+  margin-right: 15px;
+  margin-bottom: 8px;
+  background-color: transparent;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+.navbar-nav>li {
+        float: none;
+    }
+.banner1:first-child {
+  margin-top: 118px; 
+  padding-bottom: 19px;
+}
+#logo-1 { display: block; width: 184px; height:137px; padding: 10px;}
+#logo-2 { display: none;}
+/*RAZNO*/
+  .p3 {
+    font: 300 25px/34px 'Roboto', sans-serif !important;
+  }
+
+  .p3:first-child {
+      margin-top:20px !important;
+  }
+
+  .w1 {
+  	width: 100%;
+  }
+
+  .w2 {
+  	width: 100%;
+  }
+
+  .w3 {
+  	width: 100%;
+  }
+  
+  .w4 {
+  	width: 100%;
+  }
+
+  .pulse {
+	  -webkit-animation-name: '';
+	  -webkit-animation-duration: 0;
+	  -webkit-transform-origin: 0;
+	  -moz-animation-name: '';
+	  -moz-animation-duration: 0;
+	  -moz-transform-origin: 0;
+	}
+
+	#banner6_pozadina {
+	  background-image: url('../images/p1_bg3.jpg') !important;
+  }
+
+  .margina_gore_20 {
+    margin-top: 0px !important;
+  }
+
+/*RAZNO -- KRAJ*/
+
+/*PADDING*/
+	.padding_gore_40 {
+		padding-top: 0px;
+	}
+
+	.padding_lijevo_20 {
+	    padding:0 !important;
+	}
+
+	.padding_lijevo_40 {
+	    padding:0 !important;
+	}
+
+	.padding_gore_80 {
+	  padding-top: 125px;
+	}
+
+	.mobile_button_padding_20 {
+		padding-left: 20px !important;
+	}
+
+	.mobile_tekst_padding_20 {
+		padding-left: 20px !important;
+	}
+/*PADDING -- KRAJ*/
+
+	.pat {
+		padding-top:10px;
+	}
+
+/*RESPONZIVNE VISINE*/
+  .visina_550 {
+    height: 480px !important;
+  }
+
+  .visina_650 {
+    height: 580px !important;
+  }
+/*RESPONZIVNE VISINE -- KRAJ*/
+
+
+/*RESPONZIVNI BUTTONI*/
+	.btn-default.orange {
+	    display: inline-block;
+	    font: 300 24px/24px 'Roboto', sans-serif;
+	    color: orange;
+	    border: solid 1px orange;
+	    position: relative;
+	    padding: 8px;
+	    text-align: center;
+	    letter-spacing: -0.025em;
+	    z-index: 5;
+	}
+
+	.btn-default.black {
+	    display: inline-block;
+	    font: 300 24px/24px 'Roboto', sans-serif;
+	    color: #FFFFFF;
+	    border: solid 1px #4c4c4c;
+	    position: relative;
+	    padding: 8px;
+	    letter-spacing: -0.025em;
+	    z-index: 5;
+	}
+
+	.btn-default.black_inline {
+	    font: 300 24px/24px 'Roboto', sans-serif;
+		position: absolute !important;
+		top: 515px !important;
+		margin-left: 155px !important;
+	    padding: 8px;
+
+	}
+  	.btn-default.orange_inline {
+	    font: 300 24px/24px 'Roboto', sans-serif;
+	    position: absolute !important;
+	    padding: 8px;
+	    top: 415px !important;
+	    left: 5px !important;
+  	}
+
+/*RESPONZIVNI BUTTONI -- KRAJ*/
+
+
+/*RESPONZIVNI FONTOVI*/
+  	.tekst_prva_razina {
+	    font: 300 36px/36px 'Roboto',sans-serif !important;
+	}
+
+  	.tekst_dva_i_pol {
+    	padding-left: 20px;
+  	}
+
+  	.tekst_dva_i_pol h2 {
+    	font: 300 28px/34px 'Roboto', sans-serif !important;
+  	}
+
+
+  	.tekst_druga_razina {
+    	font: 300 28px/34px 'Roboto', sans-serif !important;
+  	}
+/*RESPONZIVNI FONTOVI -- KRAJ*/
+		
+}
+@media (min-width: 966px) and (max-width: 1223px) {
+.btn-group-vertical>.btn-group:after, .btn-group-vertical>.btn-group:before, .btn-toolbar:after, .btn-toolbar:before, .clearfix:after, .clearfix:before, .container-fluid:after, .container-fluid:before, .container:after, .container:before, .dl-horizontal dd:after, .dl-horizontal dd:before, .form-horizontal .form-group:after, .form-horizontal .form-group:before, .modal-footer:after, .modal-footer:before, .nav:after, .nav:before, .navbar-collapse:after, .navbar-collapse:before, .navbar-header:after, .navbar-header:before, .navbar:after, .navbar:before, .pager:after, .pager:before, .panel-body:after, .panel-body:before {
+  display: table;
+  content: " ";
+  margin-top: -2px;
+}
+.navbar-nav {
+        padding-right: 0;
+        margin:0px -15px 0px -15px;
+}
+/*RAZNO*/
+  .p3 {
+    font: 300 25px/34px 'Roboto', sans-serif !important;
+  }
+
+  .p3:first-child {
+      margin-top:15px !important;
+  }
+
+  .w1 {
+  	width: 100%;
+  }
+
+  .w2 {
+  	width: 100%;
+  }
+
+  .w3 {
+  	width: 100%;
+  }
+  
+  .w4 {
+  	width: 100%;
+  }
+
+  .pulse {
+	  -webkit-animation-name: '';
+	  -webkit-animation-duration: 0;
+	  -webkit-transform-origin: 0;
+	  -moz-animation-name: '';
+	  -moz-animation-duration: 0;
+	  -moz-transform-origin: 0;
+	}
+
+  .margina_gore_20 {
+    margin-top: 65px;
+  }
+
+
+/*RAZNO -- KRAJ*/
+
+/*PADDING*/
+	.padding_gore_40 {
+		padding-top: 0px;
+	}
+
+	.padding_lijevo_20 {
+	    padding:0 !important;
+	}
+
+	.padding_lijevo_40 {
+	    padding:0 !important;
+	}
+
+	.padding_gore_80 {
+	  padding-top: 125px;
+	}
+/*PADDING -- KRAJ*/
+
+	.pat {
+		padding-top:30px;
+	}
+
+/*RESPONZIVNE VISINE*/
+  .visina_550 {
+    height: 460px !important;
+  }
+
+  .visina_650 {
+    height: 550px !important;
+  }
+/*RESPONZIVNE VISINE -- KRAJ*/
+
+
+	
+/*RESPONZIVNI BUTTONI*/
+	.btn-default.orange {
+	    display: inline-block;
+	    font: 300 24px/24px 'Roboto', sans-serif;
+	    color: orange;
+	    border: solid 1px orange;
+	    position: relative;
+	    padding: 8px;
+	    text-align: center;
+	    letter-spacing: -0.025em;
+	    z-index: 5;
+	}
+
+	.btn-default.black {
+	    display: inline-block;
+	    font: 300 24px/24px 'Roboto', sans-serif;
+	    color: #FFFFFF;
+	    border: solid 1px #4c4c4c;
+	    position: relative;
+	    padding: 8px;
+	    letter-spacing: -0.025em;
+	    z-index: 5;
+	}
+
+	.btn-default.black_inline {
+	    font: 300 24px/24px 'Roboto', sans-serif;
+		position: absolute !important;
+		top: 335px !important;
+		left: 5px !important;
+	    padding: 8px;
+
+	}
+  	.btn-default.orange_inline {
+	    font: 300 24px/24px 'Roboto', sans-serif;
+	    position: absolute !important;
+	    padding: 8px;
+	    top: 415px !important;
+	    left: 5px !important;
+  	}
+
+/*RESPONZIVNI BUTTONI -- KRAJ*/
+
+
+/*RESPONZIVNI FONTOVI*/
+  	.tekst_prva_razina {
+	    font: 300 36px/36px 'Roboto',sans-serif !important;
+	}
+
+  	.tekst_dva_i_pol {
+    	padding-left: 20px;
+  	}
+
+  	.tekst_dva_i_pol h2 {
+    	font: 300 28px/34px 'Roboto', sans-serif !important;
+  	}
+
+
+  	.tekst_druga_razina {
+    	font: 300 28px/34px 'Roboto', sans-serif !important;
+  	}
+/*RESPONZIVNI FONTOVI -- KRAJ*/
+		
+}
+
+@media (min-width:306px) and (max-width: 767px) {
+	.smaller_screen_show {
+		display: inherit;
+	}
+
+	.bigger_screen_show {
+		display: none !important;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 965px) {
+	.bigger_screen_show {
+		display: inherit;
+		margin-bottom:10px;
+	}
+
+	.smaller_screen_show {
+		display: none !important;
+	}
+}
+
+@media (min-width: 966px) and (max-width: 2560px) {
+	.bigger_screen_show {
+		display: inherit;
+	}
+
+	.smaller_screen_show {
+		display: none !important;
+	}
+}

@@ -1,0 +1,9 @@
+/* Stellar(parallaxBG) styles
+========================================================*/
+.stellar-block {
+  background-attachment: scroll;
+  background-position: 50% 50% !important;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+}
